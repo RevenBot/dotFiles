@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+
+export J2SDKDIR=/usr/lib/jvm/jdk-20
+export J2REDIR=/usr/lib/jvm/jdk-20
+export PATH=$PATH:/usr/lib/jvm/jdk-20/bin:/usr/lib/jvm/jdk-20/db/bin
+export JAVA_HOME=/usr/lib/jvm/jdk-20
+export DERBY_HOME=/usr/lib/jvm/jdk-20/db
+

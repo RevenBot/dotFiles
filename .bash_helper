@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+#OH-MY-POSH-THEME
+eval "$(oh-my-posh init bash --config ~/.poshthemes/negligible.omp.json)"
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
