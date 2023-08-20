@@ -1,0 +1,61 @@
+lsp configs
+	normal mode
+	<space>e diagnostics open
+	[d prev diag
+	]d next diag
+	<space>q list diag
+	<c-x><c-o>completion?
+	gD declaration
+	gd definition
+	K hover
+	gi	implementation
+	<C-k> signature help
+	<space>was add workspace folder
+	<space>wr remove workspace forlde
+	<space>wel workspacelist
+	<space>D type definition
+	<space>rn rename
+	<space>ca code action
+	gr references
+	<space> format
+cmp configs
+	<C-d> scrolls docs up
+	<C-f> scrolls docs down
+	<C-Space> complete
+	<CR> confirm
+	<Tab> next item
+	<S-Tab> prev item
+telescope
+	<leader>ff find files
+	<leader>fg grep
+	<leader>fb buffers
+	<leader>fh help tags
+	in telescope opened
+		<C-x> file in split
+		<C-v> file in vsplit
+		<C-t> file in tab
+		<C-c> Close telescope
+nvim-tree-lua
+	in nvim tree
+	g?
+	<C-e> edit in place
+	<C-]> cd
+	<C-x> open in split
+	<C-v> opne in vsplit
+	'P' parent folder
+	<Tab> preview
+	'a' create file
+	'd' delete file
+	'r' rename file
+	'e' rename name no extension
+	'x' cut
+	'c' copy
+	'p' paste
+	'y' copy name
+	'Y' copy path
+	'gy' copy absolute path
+	'q' quit
+nvim-treesitter
+	TSInstall <name language>
+	
+
