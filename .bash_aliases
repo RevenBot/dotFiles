@@ -5,3 +5,6 @@ alias pmrs='python manage.py runserver'
 
 #GRADLE ALIAS
 alias gradlew='./gradlew'
+
+#MINIKUBE ALIAS
+alias kubectl="minikube kubectl --"
